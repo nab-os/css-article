@@ -121,7 +121,7 @@ Pour rester simple voici ce que propose BEM:
   * Créer des 'Blocs' séparés de manière logique
   * Pour chaque Bloc, nous pouvons y ajouter:
     * Soit des Modificateurs, avec deux tirets
-    * Sois des Elements enfants, avec deux underscores
+    * Soit des Elements enfants, avec deux underscores
 Cela va permettre de standardiser le nommage de vos classes et faciliter la lecture du code.
 
 Prenons l'exemple d'un simple article:
