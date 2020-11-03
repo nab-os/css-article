@@ -121,7 +121,7 @@ Voici un lien d'un article en Anglais qui décrit très bien le fonctionnement d
 Pour rester simple voici ce que propose BEM:
   * Créer des 'Blocs' séparés de manière logique
   * Pour chaque Bloc, nous pouvons y ajouter:
-    * Soit des Modificateurs, avec deux tirets
+    * Soit des Modificateurs, des spéctialisations, avec deux tirets
     * Soit des Elements enfants, avec deux underscores
 
 Cela va permettre de standardiser le nommage de vos classes et faciliter la lecture du code.
