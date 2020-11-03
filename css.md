@@ -1,4 +1,4 @@
-# Et si ca devenait agréable de faire du CSS ?
+# Et si ça devenait agréable de faire du CSS ?
 
 Pour beaucoup de développeurs, le CSS a une image d'un langage qu'il faut sans arrêt bricoler pour arriver à nos fins.
 Une des raisons principales est que le CSS est très permissif et ne propose pas d'architecture en lui-même, c'est un grand bac a sable.
