@@ -115,6 +115,13 @@ Cela réduit la dépendence à la structure HTML et cela a aussi réduit la pré
 Voici un point qui va grandement (et je pèse mes mots) améliorer la facilité de lecture et donc de maintenance de votre code.
 C'est la suite logique du point précédent où il va falloir définir des composants et les isoler de leur environnement.
 Je vous propose la convention de nommage BEM pour (Bloc, Element, Modifier)
+Voici un lien d'un article en Anglais qui décrit très bien le fonctionnement de cette convention:
+[https://css-tricks.com/bem-101/](https://css-tricks.com/bem-101/).
+Pour rester simple voici ce que propose BEM:
+  * Créer des 'Blocs' séparés de manière logique
+  * Pour chaque Bloc, nous pouvons y ajouter:
+    * Soit des Modificateurs, avec deux tirets
+    * Sois des Elements enfants, avec deux underscores
 Cela va permettre de standardiser le nommage de vos classes et faciliter la lecture du code.
 
 Prenons l'exemple d'un simple article:
@@ -238,28 +245,30 @@ Je vous propose une documentation simple en entête de chaque fichier de composa
 Grouper chaque élément et ses spécialisations et séparer les éléments entre eux afin de bien visualiser les différents groupes de règles :
 
 ```
-// .article
-//     Composant représentant un article de blog
-// .article--menuiserie
-//     Spécialisation d'un article concernant la menuiserie
-// .article--informatique
-//     Spécialisation d'un article concernant l'informatique
-//
-// .article__titre
-//     Élement titre d'un article
-//
-// .article__contenu
-//     Élement de contenu d'un article
-//
-// Exemple:
-// <div class="article article--informatique">
-//     <div class="article__titre">
-//         [...]
-//     </div>
-//     <div class="article__contenu">
-//         [...]
-//     </div>
-// </div>
+/*
+.article
+    Composant représentant un article de blog
+.article--menuiserie
+    Spécialisation d'un article concernant la menuiserie
+.article--informatique
+    Spécialisation d'un article concernant l'informatique
+
+.article__titre
+    Élement titre d'un article
+
+.article__contenu
+    Élement de contenu d'un article
+
+Exemple:
+<div class="article article--informatique">
+    <div class="article__titre">
+        [...]
+    </div>
+    <div class="article__contenu">
+        [...]
+    </div>
+</div>
+*/
 
 .article {
     [...]
