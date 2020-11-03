@@ -116,7 +116,8 @@ Voici un point qui va grandement (et je pèse mes mots) améliorer la facilité 
 C'est la suite logique du point précédent où il va falloir définir des composants et les isoler de leur environnement.
 Je vous propose la convention de nommage BEM pour (Bloc, Element, Modifier)
 Voici un lien d'un article en Anglais qui décrit très bien le fonctionnement de cette convention:
-[https://css-tricks.com/bem-101/](https://css-tricks.com/bem-101/).
+[https://css-tricks.com/bem-101/](https://css-tricks.com/bem-101/)
+
 Pour rester simple voici ce que propose BEM:
   * Créer des 'Blocs' séparés de manière logique
   * Pour chaque Bloc, nous pouvons y ajouter:
@@ -189,7 +190,7 @@ Et appliqué à du HTML:
             [...]
         </div>
     </div>
-    <div class="article article--Menuiserie">
+    <div class="article article--menuiserie">
         <div class="article__titre">
             L'utilisation de la scie sauteuse en milieu urbain
         </div>
